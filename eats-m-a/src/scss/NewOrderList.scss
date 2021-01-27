@@ -1,14 +1,12 @@
 .row{
   display:flex;
-  overflow-x:auto;
-}
-
-.row::-webkit-scrollbar{
-  width:0;
+  overflow-x:scroll;
+  flex-direction: column;
 }
 
 .orderCard{
-  height: 70vh;
+  height: 20vh;
+  width:50vh;
   margin: 3vh;
   border-radius: 2vh;
   border-color: #ff1b6d;
@@ -17,7 +15,7 @@
   position: absolute;
   border-bottom-left-radius: 1rem;
   bottom:0;
-  left:0;
+  left:1vh;
   width:50%;
   height: 6vh;
   border-bottom: none;
@@ -72,4 +70,11 @@
 }
 .cardTitle{
   text-align: center;
+}
+.popover{
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.popoverDiv{
+  top:10vh;
 }

@@ -6,32 +6,43 @@ body{
 
 
 
-.Menu{
+.menu{
     font-size:1rem;
+    color: #fcf9f9;
+}
+.menuTitle{
+    color:white;
 }
 
-.infoBar{
-    margin: 1vh 3vh 0 3vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.sider{
+    height: 93vh;
 }
-.infoHr{
-    margin:0;
+
+.content{
+    height: 93vh;
+}
+.orderCol{
+    height: 100%;
+}
+.pageButton{
+    margin-left:25vh;
+    position: absolute;
+    bottom:5vh;
 }
 
 .orderButtonClass{
     margin:0;
     font-size:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .newOrderButton{
-    width: 50%;
     background-color: white;
     border:none;
 }
 .completeOrderButton{
-    width:50%;
     background-color: white;
     border:none;
 }
